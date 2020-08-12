@@ -1,7 +1,7 @@
 {
   "name": "slash.benchmark",
   "version": "0.0.1",
-  "description": "Benchmark is a package that helps measuring processing times for your nodejs app",
+  "description": "🐋  Benchmark is a package that helps measuring processing times for your nodejs app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,10 +14,11 @@
     "benchmark",
     "timer",
     "bench",
-    "nodej"
+    "date",
+    "bench"
   ],
   "author": "slashbinslashnoname <slashbinslashnoname@gmail.com>",
-  "license": "ISC",
+  "license": "Tip if pleased 0x3E7434A8c7eeAc9B2D197447b3f962296E259224",
   "bugs": {
     "url": "https://github.com/slashbinslashnoname/slash.benchmark/issues"
   },
