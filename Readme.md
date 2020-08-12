@@ -14,5 +14,18 @@
 
  Donations => 0x3E7434A8c7eeAc9B2D197447b3f962296E259224
 
+## Example
+
+```javascript
+const Benchmark = require("slash.benchmark");
+Benchmark.start();
+Benchmark.setItems(45);
+setTimeout(()=>{
+    Benchmark.stop();
+    console.log(Benchmark.getSeconds(), "seconds to run a command between start and stop")
+    console.log(Benchmark.getSpeed("s"), "items/sec have been processed")
+    console.log(Benchmark.getSpeed("ms"), "items/ms have been processed")
+}, 2000)
+```
 ======
 Slashbinslashnoname 
