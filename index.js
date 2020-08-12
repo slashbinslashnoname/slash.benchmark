@@ -31,9 +31,9 @@ const Benchmark = (() => {
 	function GetSpeed(granularity) {
 		console.log(granularity);
 		switch (granularity) {
-			case "s":
-				return items / GetMilliseconds();
 			case "ms":
+				return items / GetMilliseconds();
+			case "s":
 				return items / GetSeconds();
 			default:
 				console.log("Granularity must be in 's' or 'ms'");
